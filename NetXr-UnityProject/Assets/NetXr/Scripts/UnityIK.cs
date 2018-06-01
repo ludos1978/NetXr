@@ -32,11 +32,12 @@ namespace NetXr {
         void Start() {
             anim = gameObject.GetComponent<Animator>();
             playerPhysics = gameObject.GetComponentInParent<PlayerPhysics>();
+            // is a local player
             if (playerPhysics != null) {
-                // is a local player
                 vrCameraTransform = gameObject.transform.parent.parent;
-            } else {
-                // is a remote player
+            } 
+            // is a remote player
+            else {
                 vrCameraTransform = gameObject.transform.parent;
             }
         }
@@ -61,7 +62,10 @@ namespace NetXr {
             anim.SetIKPositionWeight(AvatarIKGoal.LeftFoot, ikWeight);
             anim.SetIKPositionWeight(AvatarIKGoal.RightFoot, ikWeight);
 
+            // it's a local player
             if (playerPhysics != null) {
+                
+                // TODO: position the feet, would actually be needed to be transferred by network as well (equally to the hands)
                 Quaternion forwardVector = Quaternion.Euler(new Vector3(0, vrCameraTransform.rotation.eulerAngles.y, 0));
                 anim.SetIKPosition(AvatarIKGoal.LeftFoot, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * leftFootOffset);
                 anim.SetIKPosition(AvatarIKGoal.RightFoot, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * rightFootOffset);

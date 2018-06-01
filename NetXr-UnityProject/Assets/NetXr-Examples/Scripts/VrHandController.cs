@@ -93,6 +93,11 @@ public enum ACTION {
     Grab
 }
 
+
+/// <summary>
+/// TODO: currently only one hands finger angle is transmitted, i think this is a unity bug when multiple scripts of the same type to rpc's
+/// would need to merge both hands into one script i think...
+/// </summary>
 public class VrHandController : NetworkBehaviour {
     public InputDeviceHand handedness;
 
