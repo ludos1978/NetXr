@@ -339,14 +339,18 @@ namespace NetXr {
         [Command]
         public void CmdCreateNetworkObjectAuthForce(Vector3 createPosition, Quaternion createRotation, string networkObjectPrefabName, bool giveAuthority, Vector3 addForce, ForceMode forceMode) {
             GameObject go = CreateNetworkObject(createPosition, createRotation, networkObjectPrefabName);
-            Rigidbody rb = go.GetComponent<Rigidbody>();
-            if (rb != null) {
-                rb.AddForce(addForce, forceMode);
-            }
+            if (go != null) { 
+                Rigidbody rb = go.GetComponent<Rigidbody>();
+                if (rb != null) {
+                    rb.AddForce(addForce, forceMode);
+                }
 
-            NetworkInstanceId netId = go.GetComponent<NetworkIdentity>().netId;
-            if (giveAuthority && (netId != null)) {
-                CmdGetAuthority(netId);
+                NetworkInstanceId netId = go.GetComponent<NetworkIdentity>().netId;
+                if (giveAuthority && (netId != null)) {
+                    CmdGetAuthority(netId);
+                }
+            } else {
+                Debug.LogError("NetworkPlayerControllers.CmdCreateNetworkObjectAuthForce: could not instatiate networked object '" + networkObjectPrefabName+"'");
             }
         }
 
