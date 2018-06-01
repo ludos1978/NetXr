@@ -210,6 +210,7 @@ public class VrHandController : NetworkBehaviour {
             ApplyAngles();
         }
         else {
+            UpdateTarget();
             ApplyAngles();
         }
     }
@@ -303,7 +304,8 @@ public class VrHandController : NetworkBehaviour {
 
     void UpdateTarget() {
         // read position of Hand from NetworkPlayerController
-        foreach (NetworkInputDevice netInputDev in NetworkPlayerController.LocalInstance.addedInputDevices) {
+        // foreach (NetworkInputDevice netInputDev in NetworkPlayerController.LocalInstance.addedInputDevices) {
+        foreach (NetworkInputDevice netInputDev in gameObject.GetComponent<NetworkPlayerController>().addedInputDevices) {
             if (netInputDev != null) {
                 if (netInputDev.deviceHand == handedness) {
                     handTarget.position = netInputDev.transform.position + netInputDev.transform.forward * handOffset.z + netInputDev.transform.up * handOffset.y + netInputDev.transform.right * handOffset.x;

@@ -32,7 +32,13 @@ namespace NetXr {
         void Start() {
             anim = gameObject.GetComponent<Animator>();
             playerPhysics = gameObject.GetComponentInParent<PlayerPhysics>();
-            vrCameraTransform = gameObject.transform.parent.parent;
+            if (playerPhysics != null) {
+                // is a local player
+                vrCameraTransform = gameObject.transform.parent.parent;
+            } else {
+                // is a remote player
+                vrCameraTransform = gameObject.transform.parent;
+            }
         }
 
         void OnAnimatorIK(int layerIndex) {
@@ -55,14 +61,16 @@ namespace NetXr {
             anim.SetIKPositionWeight(AvatarIKGoal.LeftFoot, ikWeight);
             anim.SetIKPositionWeight(AvatarIKGoal.RightFoot, ikWeight);
 
-            Quaternion forwardVector = Quaternion.Euler(new Vector3(0, vrCameraTransform.rotation.eulerAngles.y, 0));
-            anim.SetIKPosition(AvatarIKGoal.LeftFoot, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * leftFootOffset);
-            anim.SetIKPosition(AvatarIKGoal.RightFoot, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * rightFootOffset);
-            anim.SetIKRotation(AvatarIKGoal.LeftFoot, Quaternion.identity);
-            anim.SetIKRotation(AvatarIKGoal.RightFoot, Quaternion.identity);
+            if (playerPhysics != null) {
+                Quaternion forwardVector = Quaternion.Euler(new Vector3(0, vrCameraTransform.rotation.eulerAngles.y, 0));
+                anim.SetIKPosition(AvatarIKGoal.LeftFoot, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * leftFootOffset);
+                anim.SetIKPosition(AvatarIKGoal.RightFoot, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * rightFootOffset);
+                anim.SetIKRotation(AvatarIKGoal.LeftFoot, Quaternion.identity);
+                anim.SetIKRotation(AvatarIKGoal.RightFoot, Quaternion.identity);
 
-            anim.SetIKHintPosition(AvatarIKHint.LeftKnee, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * leftFootOffset + leftKneeOffset);
-            anim.SetIKHintPosition(AvatarIKHint.RightKnee, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * rightFootOffset + rightKneeOffset);
+                anim.SetIKHintPosition(AvatarIKHint.LeftKnee, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * leftFootOffset + leftKneeOffset);
+                anim.SetIKHintPosition(AvatarIKHint.RightKnee, new Vector3(vrCameraTransform.position.x, playerPhysics.transform.position.y, vrCameraTransform.position.z) + forwardVector * rightFootOffset + rightKneeOffset);
+            }
         }
     }
 }

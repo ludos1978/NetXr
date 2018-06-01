@@ -20,7 +20,13 @@ namespace NetXr {
         void Start () {
             //playerEyeHeight = transform.localPosition.y;
             playerPhysics = gameObject.GetComponentInParent<PlayerPhysics>();
-            vrCameraTransform = gameObject.transform.parent;
+            if (playerPhysics != null) {
+                // the local player
+                vrCameraTransform = gameObject.transform.parent;
+            } else {
+                // is a remote networked player
+                vrCameraTransform = gameObject.transform;
+            }
         }
 
         // Update is called once per frame
@@ -30,7 +36,7 @@ namespace NetXr {
             Quaternion forwardVector = Quaternion.Euler(defaultUpRotation + new Vector3(0, vrCameraTransform.rotation.eulerAngles.y, 0));
 
             // the local player is attached to the camera and needs to be positioned below it
-            if (NetworkPlayerController.LocalInstance.isLocalPlayer) {
+            if (playerPhysics != null) {
                 //transform.localPosition = Vector3.zero;
                 //float height = vrCameraTransform.position.y - playerPhysics.transform.position;
                 // apply height of play area
