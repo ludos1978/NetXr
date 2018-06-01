@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 52bd0d89cb5bea74d8cb1db4a6d90da2
+timeCreated: 1466041767
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_PlayerPrefab: {fileID: 1000010390323862, guid: 86832daa3ddd2ae4d8468cbef308bb39,
+      type: 2}
+  - matchMaker: {instanceID: 0}
+  - vrPlayerPrefab: {fileID: 1000010098094720, guid: ac49103ec63f5d5409f668b1b3101714,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

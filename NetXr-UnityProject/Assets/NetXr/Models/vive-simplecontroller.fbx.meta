@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: a030fa54d812912408aa181ab2b9579e
+timeCreated: 1513119533
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Back
+    100002: body group1
+    100004: Camera
+    100006: Cylinder.002
+    100008: Front
+    100010: l_gripper group1
+    100012: Lamp
+    100014: LED group1
+    100016: menu_but group1
+    100018: r_gripper group1
+    100020: scroll_wheel group1
+    100022: status group1
+    100024: sys_but group1
+    100026: track_pad_scrollcut group1
+    100028: track_pip group1
+    100030: trackpad group1
+    100032: trigger group1
+    100034: //RootNode
+    100036: whole_model group1
+    100038: original-trackpad-scrolling
+    100040: original_complete
+    100042: original_scrollwheel
+    400000: Back
+    400002: body group1
+    400004: Camera
+    400006: Cylinder.002
+    400008: Front
+    400010: l_gripper group1
+    400012: Lamp
+    400014: LED group1
+    400016: menu_but group1
+    400018: r_gripper group1
+    400020: scroll_wheel group1
+    400022: status group1
+    400024: sys_but group1
+    400026: track_pad_scrollcut group1
+    400028: track_pip group1
+    400030: trackpad group1
+    400032: trigger group1
+    400034: //RootNode
+    400036: whole_model group1
+    400038: original-trackpad-scrolling
+    400040: original_complete
+    400042: original_scrollwheel
+    2000000: Camera
+    2300000: Back
+    2300002: body group1
+    2300004: Cylinder.002
+    2300006: Front
+    2300008: l_gripper group1
+    2300010: LED group1
+    2300012: menu_but group1
+    2300014: r_gripper group1
+    2300016: scroll_wheel group1
+    2300018: status group1
+    2300020: sys_but group1
+    2300022: track_pad_scrollcut group1
+    2300024: track_pip group1
+    2300026: trackpad group1
+    2300028: trigger group1
+    2300030: whole_model group1
+    2300032: original-trackpad-scrolling
+    2300034: original_complete
+    2300036: original_scrollwheel
+    3300000: Back
+    3300002: body group1
+    3300004: Cylinder.002
+    3300006: Front
+    3300008: l_gripper group1
+    3300010: LED group1
+    3300012: menu_but group1
+    3300014: r_gripper group1
+    3300016: scroll_wheel group1
+    3300018: status group1
+    3300020: sys_but group1
+    3300022: track_pad_scrollcut group1
+    3300024: track_pip group1
+    3300026: trackpad group1
+    3300028: trigger group1
+    3300030: whole_model group1
+    3300032: original-trackpad-scrolling
+    3300034: original_complete
+    3300036: original_scrollwheel
+    4300000: Front
+    4300002: Cylinder.002
+    4300004: Back
+    4300006: whole_model group1
+    4300008: trigger group1
+    4300010: track_pip group1
+    4300012: track_pad_scrollcut group1
+    4300014: trackpad group1
+    4300016: sys_but group1
+    4300018: status group1
+    4300020: scroll_wheel group1
+    4300022: r_gripper group1
+    4300024: LED group1
+    4300026: l_gripper group1
+    4300028: menu_but group1
+    4300030: body group1
+    4300032: original_complete
+    4300034: original-trackpad-scrolling
+    4300036: original_scrollwheel
+    10800000: Lamp
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: d35c6256606abef4692c047215a8dc78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gray
+    second: {fileID: 2100000, guid: 47b1635e7809bc1439628c3c99df922f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: d12b824bbe5b9a4429e7e74e2137a2ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.001
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.002
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.003
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.004
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.005
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.006
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.007
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.008
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.009
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4SG.010
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: c5a3562c1018d47469f28c103202ef61, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

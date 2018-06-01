@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 19ca6adab34307d4eb604e335d7cb343
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: //RootNode
+    100004: head
+    100006: index.001
+    100008: index.001 1
+    100010: index.002
+    100012: index.002 1
+    100014: index.003
+    100016: index.003 1
+    100018: index.003_end
+    100020: index.003_end 1
+    100022: index.base
+    100024: index.base 1
+    100026: l-hand
+    100028: l-lower-arm
+    100030: l-upper-arm
+    100032: lHand.001
+    100034: lHand.002
+    100036: lHand.Armature
+    100038: middle.001
+    100040: middle.001 1
+    100042: middle.002
+    100044: middle.002 1
+    100046: middle.003
+    100048: middle.003 1
+    100050: middle.003_end
+    100052: middle.003_end 1
+    100054: middle.base
+    100056: middle.base 1
+    100058: pinki.001
+    100060: pinki.001 1
+    100062: pinki.002
+    100064: pinki.002 1
+    100066: pinki.003
+    100068: pinki.003 1
+    100070: pinki.003_end
+    100072: pinki.003_end 1
+    100074: pinki.base
+    100076: pinki.base 1
+    100078: r-hand
+    100080: r-lower-arm
+    100082: r-upper-arm
+    100084: rHand.001
+    100086: rHand.002
+    100088: rHand.Armature
+    100090: ring.001
+    100092: ring.001 1
+    100094: ring.002
+    100096: ring.002 1
+    100098: ring.003
+    100100: ring.003 1
+    100102: ring.003_end
+    100104: ring.003_end 1
+    100106: ring.base
+    100108: ring.base 1
+    100110: thumb.001
+    100112: thumb.001 1
+    100114: thumb.002
+    100116: thumb.002 1
+    100118: thumb.003
+    100120: thumb.003 1
+    100122: thumb.003_end
+    100124: thumb.003_end 1
+    100126: Icosphere
+    100128: Icosphere.001
+    400000: body
+    400002: //RootNode
+    400004: head
+    400006: index.001
+    400008: index.001 1
+    400010: index.002
+    400012: index.002 1
+    400014: index.003
+    400016: index.003 1
+    400018: index.003_end
+    400020: index.003_end 1
+    400022: index.base
+    400024: index.base 1
+    400026: l-hand
+    400028: l-lower-arm
+    400030: l-upper-arm
+    400032: lHand.001
+    400034: lHand.002
+    400036: lHand.Armature
+    400038: middle.001
+    400040: middle.001 1
+    400042: middle.002
+    400044: middle.002 1
+    400046: middle.003
+    400048: middle.003 1
+    400050: middle.003_end
+    400052: middle.003_end 1
+    400054: middle.base
+    400056: middle.base 1
+    400058: pinki.001
+    400060: pinki.001 1
+    400062: pinki.002
+    400064: pinki.002 1
+    400066: pinki.003
+    400068: pinki.003 1
+    400070: pinki.003_end
+    400072: pinki.003_end 1
+    400074: pinki.base
+    400076: pinki.base 1
+    400078: r-hand
+    400080: r-lower-arm
+    400082: r-upper-arm
+    400084: rHand.001
+    400086: rHand.002
+    400088: rHand.Armature
+    400090: ring.001
+    400092: ring.001 1
+    400094: ring.002
+    400096: ring.002 1
+    400098: ring.003
+    400100: ring.003 1
+    400102: ring.003_end
+    400104: ring.003_end 1
+    400106: ring.base
+    400108: ring.base 1
+    400110: thumb.001
+    400112: thumb.001 1
+    400114: thumb.002
+    400116: thumb.002 1
+    400118: thumb.003
+    400120: thumb.003 1
+    400122: thumb.003_end
+    400124: thumb.003_end 1
+    400126: Icosphere
+    400128: Icosphere.001
+    2100000: body
+    2100002: hands
+    2100004: head
+    2100006: glasses
+    2100008: No Name
+    2300000: body
+    2300002: head
+    2300004: l-lower-arm
+    2300006: l-upper-arm
+    2300008: r-lower-arm
+    2300010: r-upper-arm
+    2300012: Icosphere
+    2300014: Icosphere.001
+    3300000: body
+    3300002: head
+    3300004: l-lower-arm
+    3300006: l-upper-arm
+    3300008: r-lower-arm
+    3300010: r-upper-arm
+    3300012: Icosphere
+    3300014: Icosphere.001
+    4300000: body
+    4300002: l-upper-arm
+    4300004: l-lower-arm
+    4300006: r-upper-arm
+    4300008: r-lower-arm
+    4300010: l-hand
+    4300012: r-hand
+    4300014: head
+    4300016: Icosphere
+    4300018: Icosphere.001
+    9500000: //RootNode
+    13700000: l-hand
+    13700002: r-hand
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: body
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

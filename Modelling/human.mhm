@@ -1,0 +1,22 @@
+# Written by MakeHuman 1.1.1
+version v1.1.1
+tags human
+camera 16.0 8.0 -1.0 1.0 1.0 0.675
+modifier macrodetails-universal/Muscle 0.500000
+modifier macrodetails/African 0.333333
+modifier macrodetails-proportions/BodyProportions 0.500000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails-height/Height 0.687000
+modifier breast/BreastSize 0.500000
+modifier macrodetails/Age 0.503000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Asian 0.333333
+modifier macrodetails/Caucasian 0.333333
+modifier macrodetails-universal/Weight 0.500000
+proxy male1591 d7e4934e-daed-4ad5-a055-18c9cba487dc
+skeleton game_engine.mhskel
+pose standing02.bvh
+clothes male_casualsuit01 79ced554-1d8a-4c14-a6a8-e1de90b09c32
+clothesHideFaces True
+skinMaterial skins/middleage_caucasian_female/middleage_caucasian_female.mhmat
+subdivide False

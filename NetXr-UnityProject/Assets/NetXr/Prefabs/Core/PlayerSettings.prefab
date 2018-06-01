@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1647581969675700}
+  m_IsPrefabParent: 1
+--- !u!1 &1647581969675700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4689703846987614}
+  - component: {fileID: 114339846738436550}
+  m_Layer: 0
+  m_Name: PlayerSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4689703846987614
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647581969675700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114339846738436550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1647581969675700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47a6ec36745f49e890c356ce8d9c1f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrEnabled: 1
+  mouseControllerEnabled: 0
+  gazeControllerEnabled: 0
+  leapControllerEnabled: 0
+  viveControllerEnabled: 1
+  mouseLeapCameraPrefab: {fileID: 1000013696578034, guid: dba8f119a325ecb46aca5b5aabde6b51,
+    type: 2}
+  mouseCameraPrefab: {fileID: 1000011375380616, guid: cee7de8a61e494595863f507c101de71,
+    type: 2}
+  vrLeapViveCameraPrefab: {fileID: 146900, guid: 491c7082c6160da46a5aac7e6fd0c145,
+    type: 2}
+  vrViveCameraPrefab: {fileID: 1000011440047808, guid: 3e14444313fc04f40b0a36ac3d68807a,
+    type: 2}
+  vrLeapCameraPrefab: {fileID: 1000011440047808, guid: a47e9c099b33a5f47afed01be53644c6,
+    type: 2}
+  vrCameraPrefab: {fileID: 1000011440047808, guid: 1d7eabf0eea3c1d42b2488ddddda2485,
+    type: 2}
+  SpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  cameraInstance: {fileID: 0}
+  headTransform: {fileID: 0}

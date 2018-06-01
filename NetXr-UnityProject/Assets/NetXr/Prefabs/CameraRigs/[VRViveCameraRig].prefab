@@ -1,0 +1,2413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011440047808}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010336610408
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011811389156}
+  - component: {fileID: 81000012110118170}
+  - component: {fileID: 114000013309597058}
+  m_Layer: 0
+  m_Name: Camera (ears)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011440047808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012175576992}
+  - component: {fileID: 114000013093941614}
+  - component: {fileID: 23000010560880358}
+  - component: {fileID: 33000014022422626}
+  - component: {fileID: 114000010710815068}
+  - component: {fileID: 136804956538797176}
+  - component: {fileID: 54131569236838564}
+  - component: {fileID: 114534022470248510}
+  m_Layer: 0
+  m_Name: '[VRViveCameraRig]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1000011474623156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013774029590}
+  - component: {fileID: 20000011761255172}
+  - component: {fileID: 114000012768596858}
+  - component: {fileID: 92000013679897204}
+  m_Layer: 0
+  m_Name: Camera (head)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011572279288
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011614566590}
+  - component: {fileID: 114000010481418566}
+  m_Layer: 0
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012238398568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013282924714}
+  - component: {fileID: 114000010912475800}
+  - component: {fileID: 114068849969180666}
+  m_Layer: 0
+  m_Name: Controller (right)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012631632528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000014108283790}
+  - component: {fileID: 114000010171602104}
+  - component: {fileID: 114731982194179042}
+  m_Layer: 0
+  m_Name: Controller (left)
+  m_TagString: UiParent
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013639713226
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011505102672}
+  - component: {fileID: 114000014246419410}
+  m_Layer: 0
+  m_Name: Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000013726248142
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012411056096}
+  - component: {fileID: 20000011641974342}
+  - component: {fileID: 124000013940635840}
+  - component: {fileID: 114713077415618198}
+  - component: {fileID: 114804354356795660}
+  - component: {fileID: 114649816058399376}
+  - component: {fileID: 114130812420742536}
+  m_Layer: 0
+  m_Name: Camera (eye)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1170729646098500
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4746683431537168}
+  m_Layer: 0
+  m_Name: SphereCastPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1381870762912944
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4787410367487148}
+  m_Layer: 0
+  m_Name: RaySource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1475593426505986
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4540169377967724}
+  m_Layer: 0
+  m_Name: RaySource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1486448341831306
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4738525839477956}
+  m_Layer: 0
+  m_Name: SphereCastPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1588987172250616
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4925336519448034}
+  m_Layer: 0
+  m_Name: Attachpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1775025114012514
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4760492463563720}
+  m_Layer: 0
+  m_Name: RaySource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1855980782100700
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4847397502562980}
+  m_Layer: 0
+  m_Name: Attachpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1887100415123320
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4467740788976676}
+  m_Layer: 0
+  m_Name: SphereCastPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1916717745665314
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4965569761281430}
+  m_Layer: 0
+  m_Name: Attachpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011505102672
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013639713226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000013282924714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000011614566590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011572279288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000014108283790}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000011811389156
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010336610408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000013774029590}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000012175576992
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 250, y: 0, z: 250}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000014108283790}
+  - {fileID: 4000013282924714}
+  - {fileID: 4000013774029590}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000012411056096
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013726248142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000013774029590}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000013282924714
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012238398568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000011505102672}
+  - {fileID: 4746683431537168}
+  - {fileID: 4540169377967724}
+  m_Father: {fileID: 4000012175576992}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000013774029590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011474623156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000012411056096}
+  - {fileID: 4738525839477956}
+  - {fileID: 4000011811389156}
+  - {fileID: 4760492463563720}
+  m_Father: {fileID: 4000012175576992}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4000014108283790
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012631632528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4000011614566590}
+  - {fileID: 4467740788976676}
+  - {fileID: 4787410367487148}
+  m_Father: {fileID: 4000012175576992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4467740788976676
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887100415123320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000014108283790}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4540169377967724
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475593426505986}
+  m_LocalRotation: {x: 0.49999973, y: -0, z: -0, w: 0.86602557}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4925336519448034}
+  m_Father: {fileID: 4000013282924714}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4738525839477956
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1486448341831306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000013774029590}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4746683431537168
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1170729646098500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000013282924714}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4760492463563720
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1775025114012514}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4847397502562980}
+  m_Father: {fileID: 4000013774029590}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4787410367487148
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1381870762912944}
+  m_LocalRotation: {x: 0.49999973, y: -0, z: -0, w: 0.86602557}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4965569761281430}
+  m_Father: {fileID: 4000014108283790}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4847397502562980
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855980782100700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4760492463563720}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4925336519448034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588987172250616}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4540169377967724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 60.000004, y: 0, z: 0}
+--- !u!4 &4965569761281430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1916717745665314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4787410367487148}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 60.000004, y: 0, z: 0}
+--- !u!20 &20000011641974342
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013726248142}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.05
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!20 &20000011761255172
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011474623156}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0
+  far clip plane: 1
+  field of view: 60
+  orthographic: 1
+  orthographic size: 1
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!23 &23000010560880358
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33000014022422626
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  m_Mesh: {fileID: 0}
+--- !u!54 &54131569236838564
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 0
+--- !u!81 &81000012110118170
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010336610408}
+  m_Enabled: 1
+--- !u!92 &92000013679897204
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011474623156}
+  m_Enabled: 1
+--- !u!114 &114000010171602104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012631632528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37c2cf88f7c59f4c8cf5d3812568143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 1
+  origin: {fileID: 0}
+--- !u!114 &114000010481418566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011572279288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5890e3cad70bea64d91aef9145ba3454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: -1
+  modelOverride: 
+  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 3}
+  verbose: 0
+  createComponents: 1
+  updateDynamically: 1
+--- !u!114 &114000010710815068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0522eaef74d984591c060d05a095c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  borderThickness: 0.15
+  wireframeHeight: 2
+  drawWireframeWhenSelectedOnly: 1
+  drawInGame: 0
+  size: 2
+  color: {r: 0, g: 1, b: 1, a: 1}
+  vertices:
+  - {x: 1.5, y: 0.01, z: 1.125}
+  - {x: 1.5, y: 0.01, z: -1.125}
+  - {x: -1.5, y: 0.01, z: -1.125}
+  - {x: -1.5, y: 0.01, z: 1.125}
+  - {x: 1.65, y: 0.01, z: 1.275}
+  - {x: 1.65, y: 0.01, z: -1.275}
+  - {x: -1.65, y: 0.01, z: -1.275}
+  - {x: -1.65, y: 0.01, z: 1.275}
+--- !u!114 &114000010912475800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012238398568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37c2cf88f7c59f4c8cf5d3812568143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 2
+  origin: {fileID: 0}
+--- !u!114 &114000012768596858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011474623156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37c2cf88f7c59f4c8cf5d3812568143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  origin: {fileID: 0}
+--- !u!114 &114000013093941614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b47c2980b93bc48844a54641dab5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  left: {fileID: 1000012631632528}
+  right: {fileID: 1000012238398568}
+  objects: []
+  assignAllBeforeIdentified: 1
+--- !u!114 &114000013309597058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010336610408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a86c1078ce4314b9c4224560e031b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrcam: {fileID: 0}
+--- !u!114 &114000014246419410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013639713226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5890e3cad70bea64d91aef9145ba3454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: -1
+  modelOverride: 
+  shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 3}
+  verbose: 0
+  createComponents: 1
+  updateDynamically: 1
+--- !u!114 &114068849969180666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012238398568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6274eeb057b903547a8766969519860f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputDevice:
+    deviceType: 0
+    deviceHand: 0
+    uiCastActive: 0
+    physicsCastActive: 0
+    inputController: {fileID: 0}
+    controller: {fileID: 0}
+    uiRaySource: {fileID: 0}
+    physicsRaySource: {fileID: 0}
+    sphereCastPoint: {fileID: 0}
+    grabAttachementPoint: {fileID: 0}
+    physicsCastType: 0
+    sphereCastRadius: 0.1
+    overrideReticleSprite: {fileID: 0}
+    showReticle: 1
+    reticleSize: 0.05
+    reticleActiveColor: {r: 1, g: 1, b: 1, a: 1}
+    reticleInactiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    showUiRaySetting: 1
+    showPhysicsRaySetting: 0
+    uiRayLength: 10
+    physicsRayLength: 10
+    parabolicRayVelocity: 10
+    uiRayMaterial: {fileID: 0}
+    uiRayWidth: 0.005
+    uiRayColors:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    physicsRayMaterial: {fileID: 0}
+    physicsRayWidth: 0.005
+    physicRayColors:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    objectUnderAimer: {fileID: 0}
+    uiPointerOffsetMode: 0
+    uiActivationMethod: 2
+    externalPressed: 0
+    externalReleased: 0
+    prevPressed: 0
+    prevReleased: 0
+    uiActivationAxis: Submit
+    hoverActivationTime: 0.9
+    minTouchDistance: 0.02
+    maxTouchDistance: 0.05
+    onSetDeviceInactiveEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: NetXr.UnityDeviceEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onSetDeviceActiveEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: NetXr.UnityDeviceEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    prevPosition: {x: 0, y: 0, z: 0}
+    prevRotation: {x: 0, y: 0, z: 0}
+  uiCastActiveDefault: 1
+  physicsCastActiveDefault: 1
+  showUiRaySettingDefault: 1
+  showPhysicsRaySettingDefault: 1
+  physicsRaySourceTransformName: RaySource
+  uiRaySourceTransformName: RaySource
+  sphereCastObjectTransformName: SphereCastPoint
+  grabAttachementPointTransformName: Attachpoint
+  physicsCastTypeDefault: 1
+  onEnableControllerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityControllerEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onDisableControllerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityControllerEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  genericUiCastEnableEvent: 0
+  genericUiCastDisableEvent: 0
+  genericPhysicsCastEnableEvent: 0
+  genericPhysicsCastDisableEvent: 0
+  genericSetParabolaCastEvent: 0
+  genericSetRayCastEvent: 0
+  genericSetSphereCastEvent: 0
+  genericUiPressEvent: 300
+  genericUiReleaseEvent: 301
+  genericUseStartEvent: 300
+  genericUseStopEvent: 301
+  genericAttachStartEvent: 306
+  genericAttachStopEvent: 307
+  genericTouchStartEvent: 303
+  genericTouchStopEvent: 304
+  genericEventOneHoveredObjectsStartEvent: 0
+  genericEventOneHoveredObjectsStopEvent: 0
+  genericEventOneGrabbedObjectStartEvent: 0
+  genericEventOneGrabbedObjectStopEvent: 0
+  genericEventTwoHoveredObjectsStartEvent: 0
+  genericEventTwoHoveredObjectsStopEvent: 0
+  genericEventTwoGrabbedObjectStartEvent: 0
+  genericEventTwoGrabbedObjectStopEvent: 0
+  genericEventThreeHoveredObjectsStartEvent: 0
+  genericEventThreeHoveredObjectsStopEvent: 0
+  genericEventThreeGrabbedObjectStartEvent: 0
+  genericEventThreeGrabbedObjectStopEvent: 0
+  touchDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  touchUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  touchPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  usePressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerTouched:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerTouchUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGesturePrepareEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGesturePrepareEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114130812420742536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013726248142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bca9ccf900ccc84c887d783321d27e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _head: {fileID: 4000013774029590}
+  _ears: {fileID: 4000011811389156}
+  wireframe: 0
+--- !u!114 &114534022470248510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01efc5b1f98878418cb71d70fee5993, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 4000012411056096}
+  vrControlledHeight: 1
+  playerHeight: 1.5
+--- !u!114 &114649816058399376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013726248142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad1e469d4e3e04489f9a36419f1a4f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114713077415618198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013726248142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b61cd59d8f02e454186a61a5f55c21b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114731982194179042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012631632528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6274eeb057b903547a8766969519860f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputDevice:
+    deviceType: 0
+    deviceHand: 0
+    uiCastActive: 0
+    physicsCastActive: 0
+    inputController: {fileID: 0}
+    controller: {fileID: 0}
+    uiRaySource: {fileID: 0}
+    physicsRaySource: {fileID: 0}
+    sphereCastPoint: {fileID: 0}
+    grabAttachementPoint: {fileID: 0}
+    physicsCastType: 0
+    sphereCastRadius: 0.1
+    overrideReticleSprite: {fileID: 0}
+    showReticle: 1
+    reticleSize: 0.05
+    reticleActiveColor: {r: 1, g: 1, b: 1, a: 1}
+    reticleInactiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    showUiRaySetting: 1
+    showPhysicsRaySetting: 0
+    uiRayLength: 10
+    physicsRayLength: 10
+    parabolicRayVelocity: 10
+    uiRayMaterial: {fileID: 0}
+    uiRayWidth: 0.005
+    uiRayColors:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    physicsRayMaterial: {fileID: 0}
+    physicsRayWidth: 0.005
+    physicRayColors:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    objectUnderAimer: {fileID: 0}
+    uiPointerOffsetMode: 0
+    uiActivationMethod: 2
+    externalPressed: 0
+    externalReleased: 0
+    prevPressed: 0
+    prevReleased: 0
+    uiActivationAxis: Submit
+    hoverActivationTime: 0.9
+    minTouchDistance: 0.02
+    maxTouchDistance: 0.05
+    onSetDeviceInactiveEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: NetXr.UnityDeviceEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onSetDeviceActiveEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: NetXr.UnityDeviceEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    prevPosition: {x: 0, y: 0, z: 0}
+    prevRotation: {x: 0, y: 0, z: 0}
+  uiCastActiveDefault: 1
+  physicsCastActiveDefault: 1
+  showUiRaySettingDefault: 1
+  showPhysicsRaySettingDefault: 1
+  physicsRaySourceTransformName: RaySource
+  uiRaySourceTransformName: RaySource
+  sphereCastObjectTransformName: SphereCastPoint
+  grabAttachementPointTransformName: Attachpoint
+  physicsCastTypeDefault: 1
+  onEnableControllerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityControllerEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onDisableControllerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityControllerEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  genericUiCastEnableEvent: 0
+  genericUiCastDisableEvent: 0
+  genericPhysicsCastEnableEvent: 0
+  genericPhysicsCastDisableEvent: 0
+  genericSetParabolaCastEvent: 0
+  genericSetRayCastEvent: 0
+  genericSetSphereCastEvent: 0
+  genericUiPressEvent: 300
+  genericUiReleaseEvent: 301
+  genericUseStartEvent: 300
+  genericUseStopEvent: 301
+  genericAttachStartEvent: 306
+  genericAttachStopEvent: 307
+  genericTouchStartEvent: 303
+  genericTouchStopEvent: 304
+  genericEventOneHoveredObjectsStartEvent: 0
+  genericEventOneHoveredObjectsStopEvent: 0
+  genericEventOneGrabbedObjectStartEvent: 0
+  genericEventOneGrabbedObjectStopEvent: 0
+  genericEventTwoHoveredObjectsStartEvent: 0
+  genericEventTwoHoveredObjectsStopEvent: 0
+  genericEventTwoGrabbedObjectStartEvent: 0
+  genericEventTwoGrabbedObjectStopEvent: 0
+  genericEventThreeHoveredObjectsStartEvent: 0
+  genericEventThreeHoveredObjectsStopEvent: 0
+  genericEventThreeGrabbedObjectStartEvent: 0
+  genericEventThreeGrabbedObjectStopEvent: 0
+  touchDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  touchUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  touchPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  usePressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerTouched:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerTouchUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGesturePrepareEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGesturePrepareEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114804354356795660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013726248142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e70239445d7e19449051507f196bf9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputDevice:
+    deviceType: 0
+    deviceHand: 0
+    uiCastActive: 0
+    physicsCastActive: 0
+    inputController: {fileID: 0}
+    controller: {fileID: 0}
+    uiRaySource: {fileID: 0}
+    physicsRaySource: {fileID: 0}
+    sphereCastPoint: {fileID: 0}
+    grabAttachementPoint: {fileID: 0}
+    physicsCastType: 0
+    sphereCastRadius: 0.1
+    overrideReticleSprite: {fileID: 0}
+    showReticle: 1
+    reticleSize: 0.05
+    reticleActiveColor: {r: 1, g: 1, b: 1, a: 1}
+    reticleInactiveColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    showUiRaySetting: 1
+    showPhysicsRaySetting: 0
+    uiRayLength: 0.5
+    physicsRayLength: 30
+    parabolicRayVelocity: 10
+    uiRayMaterial: {fileID: 0}
+    uiRayWidth: 0.005
+    uiRayColors:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    physicsRayMaterial: {fileID: 0}
+    physicsRayWidth: 0.005
+    physicRayColors:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    objectUnderAimer: {fileID: 0}
+    uiPointerOffsetMode: 0
+    uiActivationMethod: 2
+    externalPressed: 0
+    externalReleased: 0
+    prevPressed: 0
+    prevReleased: 0
+    uiActivationAxis: Submit
+    hoverActivationTime: 0.9
+    minTouchDistance: 0.02
+    maxTouchDistance: 0.03
+    onSetDeviceInactiveEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: NetXr.UnityDeviceEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    onSetDeviceActiveEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: NetXr.UnityDeviceEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+    prevPosition: {x: 0, y: 0, z: 0}
+    prevRotation: {x: 0, y: 0, z: 0}
+  uiCastActiveDefault: 0
+  physicsCastActiveDefault: 0
+  showUiRaySettingDefault: 0
+  showPhysicsRaySettingDefault: 0
+  physicsRaySourceTransformName: RaySource
+  uiRaySourceTransformName: RaySource
+  sphereCastObjectTransformName: SphereCastPoint
+  grabAttachementPointTransformName: Attachpoint
+  physicsCastTypeDefault: 0
+  onEnableControllerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityControllerEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onDisableControllerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityControllerEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  genericUiCastEnableEvent: 0
+  genericUiCastDisableEvent: 0
+  genericPhysicsCastEnableEvent: 0
+  genericPhysicsCastDisableEvent: 0
+  genericSetParabolaCastEvent: 0
+  genericSetRayCastEvent: 0
+  genericSetSphereCastEvent: 0
+  genericUiPressEvent: 0
+  genericUiReleaseEvent: 0
+  genericUseStartEvent: 0
+  genericUseStopEvent: 0
+  genericAttachStartEvent: 0
+  genericAttachStopEvent: 0
+  genericTouchStartEvent: 0
+  genericTouchStopEvent: 0
+  genericEventOneHoveredObjectsStartEvent: 0
+  genericEventOneHoveredObjectsStopEvent: 0
+  genericEventOneGrabbedObjectStartEvent: 0
+  genericEventOneGrabbedObjectStopEvent: 0
+  genericEventTwoHoveredObjectsStartEvent: 0
+  genericEventTwoHoveredObjectsStopEvent: 0
+  genericEventTwoGrabbedObjectStartEvent: 0
+  genericEventTwoGrabbedObjectStopEvent: 0
+  genericEventThreeHoveredObjectsStartEvent: 0
+  genericEventThreeHoveredObjectsStopEvent: 0
+  genericEventThreeGrabbedObjectStartEvent: 0
+  genericEventThreeGrabbedObjectStopEvent: 0
+  touchDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  touchUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  touchPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  grabPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  useUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  usePressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton0Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton1Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  mouseButton2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerTouched:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTriggerTouchUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveTouchpadPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripDown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  viveGripPressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapRingFingerDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapThumbHandDownGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapIndexPointingIgnoreThumbGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGesturePrepareEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapGrabGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGesturePrepareEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapReleaseGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapOpenGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureStopEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  leapClosedGestureRepeatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF3Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Down:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Up:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  keyboardButtonF1AndF2Pressed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: NetXr.UnityDeviceDataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  cameraUiActivationMethod: 0
+--- !u!124 &124000013940635840
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013726248142}
+  m_Enabled: 1
+--- !u!136 &136804956538797176
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011440047808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 1.7
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.85, z: 0}
